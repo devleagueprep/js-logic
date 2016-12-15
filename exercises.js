@@ -43,6 +43,12 @@ Write a function that takes a single String parameter named `action`. If the val
 
 // Step 3: test your code with a console log
 
+var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
+
+for (var i = 0; i<toyotaModels.length; i++){
+   console.log("Toyota " + toyotaModels[i]);
+}
+
 
 /*
 2) Function - isNumberGreaterThan
