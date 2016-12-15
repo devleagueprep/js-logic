@@ -72,6 +72,20 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
+/*
+ * #4
+ * Function - mustBeTrue
+ * Create a function named `mustBeTrue` which will take a parameter: `boo`.
+ *
+ *  @param Datatype: Number `boo`
+ *  @return Datatype: Boolean
+ *
+ * The function will return true if the value passed into the function is "true".
+ * Console.log your result.
+*/
+
+
+
 /* 3) Function - isTrue
 
   @param Datatype: Boolean `val`
