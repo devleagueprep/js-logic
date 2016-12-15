@@ -168,6 +168,20 @@ for (var i = 0; i<toyotaModels.length; i++){
 */ 
 
 
+/*
+ * #11
+ * Function - graduation
+ * Create a function named `graduation` which takes two parameters: `credits` and `thesis`.
+ *
+ *  @param Datatype: Number `credit`
+ *  @param Datatype: Boolean `thesis`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "Congratulations on a job well done." if either the number value is greater than 120 or boolean value is true, otherwise return the message: "See you in summer school."
+ * Console.log your result.
+*/ 
+
+
 /* 8) Function - totalOver30
 
   @param Datatype: Number `first`
