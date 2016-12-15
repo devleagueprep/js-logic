@@ -126,7 +126,6 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
-
 /*
  * #8
  * Function - spareChange
@@ -138,6 +137,23 @@ for (var i = 0; i<toyotaModels.length; i++){
  * The function will return true if the number passed into the function is greater than 100, otherswise it will return false.
  * Console.log your result.
 */ 
+
+
+
+/*
+ * #9
+ * Function - dirty30
+ * Create a function named `dirty30` which takes three parameters: `one`, `two` and `three`.
+ *
+ *  @param Datatype: Number `one`
+ *  @param Datatype: Number `two`
+ *  @param Datatype: Number `three`
+ *  @return Datatype: Boolean
+ *
+ * The function will return true if the sum of all the number values is greater than 30, otherwise return false.
+ * Console.log your result.
+*/ 
+
 
 
 /* 8) Function - totalOver30
