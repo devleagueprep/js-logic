@@ -41,27 +41,34 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Number `age`
  *  @return Datatype: Boolean
  *
- * Return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
+ * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
 
-/* 
-1) Function - youGetTaco
-
-  @param Datatype: String `action`
-  @return Datatype: String
-
-Write a function that takes a single String parameter named `action`. If the value passed into the function is "eat", then the function will return a String with the value "EAT TACOS."
+/*
+ * #2
+ * Function - login
+ * Create a function named `login` which will take a parameter: `password`.
+ *
+ *  @param Datatype: String `password`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
+ * Console.log your result.
 */
 
-// Step 1: define the function
 
-// Step 2: invoke the function and store result to a variable
-
-// Step 3: test your code with a console log
-
-
-
+/*
+ * #3
+ * Function - isGreaterThan
+ * Create a function named `login` which will take a parameter: `password`.
+ *
+ *  @param Datatype: String `password`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
+ * Console.log your result.
+*/
 
 /*
 2) Function - isNumberGreaterThan
@@ -70,7 +77,9 @@ Write a function that takes a single String parameter named `action`. If the val
   @param Datatype: Number `second`
   @return Datatype: Boolean
 
-Write a function that takes two parameters of type Number called first and second respectively. Return true if the first number is greater than the second.*/
+Write a function that takes two parameters of type Number called first and second respectively. Return true if the first number is greater than the second.
+
+*/
 
 
 /* 3) Function - isTrue
