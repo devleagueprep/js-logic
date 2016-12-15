@@ -97,17 +97,23 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */
 
+/*
+ * #6
+ * Function - isEqual
+ * Create a function named `isEqual` which takes two parameters: `first` and `second`.
+ *
+ *  @param Datatype: String `first`
+ *  @param Datatype: String `second`
+ *  @return Datatype: String
+ *
+ * The function will return the message "You look mahvelous!", if the strings are equal, otherwise return the message: "I don't know who you are anymore." 
+ * Console.log your result.
+*/
 
-/* 5) Function - isEqual
 
-  @param Datatype: String `firstWord`
-  @param Datatype: String `secondWord`
-  @return Datatype: String
 
-Write a function that takes two variables of type String called firstWord and secondWord respectively. Return 'AWWWWRIGHT' if the two are equal otherwise return 'Y U NO MATCH!'. */
 
- 
-/* 6) Function - isNotEqual
+ /* 6) Function - isNotEqual
 
   @param Datatype: String `firstWord`
   @param Datatype: String `secondWord`
