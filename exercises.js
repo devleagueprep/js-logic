@@ -121,20 +121,23 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * The function will return the message "Opposites do attract", if the strings are not equal, otherwise return the message: "We are the same." 
+ * The function will return the message "Opposites do attract", if the strings are not equal, otherwise return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
 
 
 
-
-/* 7) Function - doubleEquals
-
-  @param Datatype: Boolean `first`
-  @param Datatype: Boolean `second`
-  @return Datatype: Boolean
-
-Write a function that takes two variables of type Boolean called first and second respectively. Return true if both values are true otherwise return false. */
+/*
+ * #8
+ * Function - spareChange
+ * Create a function named `spareChange` which takes a parameter: `money`.
+ *
+ *  @param Datatype: Number `money`
+ *  @return Datatype: Boolean
+ *
+ * The function will return true if the number passed into the function is greater than 100, otherswise it will return false.
+ * Console.log your result.
+*/ 
 
 
 /* 8) Function - totalOver30
