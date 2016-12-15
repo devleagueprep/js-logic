@@ -139,7 +139,6 @@ for (var i = 0; i<toyotaModels.length; i++){
 */ 
 
 
-
 /*
  * #9
  * Function - dirty30
@@ -154,6 +153,19 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */ 
 
+
+/*
+ * #10
+ * Function - nightClub
+ * Create a function named `nightClub` which takes two parameters: `cover` and `age`.
+ *
+ *  @param Datatype: Number `cover`
+ *  @param Datatype: Number `age`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "Welcome to the Legends Lounge." if BOTH values are over 21, otherwise return the message: "Chuck E Cheese is across the street."
+ * Console.log your result.
+*/ 
 
 
 /* 8) Function - totalOver30
