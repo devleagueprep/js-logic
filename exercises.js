@@ -61,24 +61,14 @@ for (var i = 0; i<toyotaModels.length; i++){
 /*
  * #3
  * Function - isGreaterThan
- * Create a function named `login` which will take a parameter: `password`.
+ * Create a function named `isGreaterThan` which will take two parameters: `first` and `second`
  *
- *  @param Datatype: String `password`
- *  @return Datatype: String
+ *  @param Datatype: Number `first`
+ *  @param Datatype: Number `second`
+ *  @return Datatype: Boolean
  *
- * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
+ * The function will return true if the first number is greater than the second.
  * Console.log your result.
-*/
-
-/*
-2) Function - isNumberGreaterThan
-
-  @param Datatype: Number `first`
-  @param Datatype: Number `second`
-  @return Datatype: Boolean
-
-Write a function that takes two parameters of type Number called first and second respectively. Return true if the first number is greater than the second.
-
 */
 
 
