@@ -77,7 +77,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Function - mustBeTrue
  * Create a function named `mustBeTrue` which will take a parameter: `boo`.
  *
- *  @param Datatype: Number `boo`
+ *  @param Datatype: Boolean `boo`
  *  @return Datatype: Boolean
  *
  * The function will return true if the value passed into the function is "true".
@@ -85,21 +85,17 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
-
-/* 3) Function - isTrue
-
-  @param Datatype: Boolean `val`
-  @return Datatype: Boolean
-
-Write a function that takes in a Boolean value named val and have the function return whether the value is true.*/
-
-
-/* 4) Function - isFalse
-  
-  @param Datatype: Boolean `val`
-  @return Datatype: Boolean
-
-Write a function that takes in a Boolean value named val and have the function return whether the value is false. */
+/*
+ * #5
+ * Function - bigBird
+ * Create a function named `bigBird` which will take a parameter: `word`.
+ *
+ *  @param Datatype: String `word`
+ *  @return Datatype: String
+ *
+ * The function will return the message "Word to Big Bird!", if the string passed into the function is a three letter word. 
+ * Console.log your result.
+*/
 
 
 /* 5) Function - isEqual
