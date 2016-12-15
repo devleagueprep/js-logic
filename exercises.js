@@ -33,6 +33,18 @@ for (var i = 0; i<toyotaModels.length; i++){
 }
 
 
+/*
+ * #1
+ * Function - canVote
+ * Create a function named `canVote` which will take a parameter: `age`.
+ *
+ *  @param Datatype: Number `age`
+ *  @return Datatype: Boolean
+ *
+ * Return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
+*/
+
+
 /* 
 1) Function - youGetTaco
 
