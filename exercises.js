@@ -97,6 +97,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */
 
+
 /*
  * #6
  * Function - isEqual
@@ -111,15 +112,20 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
+/*
+ * #7
+ * Function - notEqual
+ * Create a function named `notEqual` which takes two parameters: `first` and `second`.
+ *
+ *  @param Datatype: String `first`
+ *  @param Datatype: String `second`
+ *  @return Datatype: String
+ *
+ * The function will return the message "Opposites do attract", if the strings are not equal, otherwise return the message: "We are the same." 
+ * Console.log your result.
+*/
 
 
- /* 6) Function - isNotEqual
-
-  @param Datatype: String `firstWord`
-  @param Datatype: String `secondWord`
-  @return Datatype: String
-
-Write a function that takes two variables of type String called firstWord and secondWord respectively. Return 'AWWWWRIGHT' if the two are **not** equal otherwise return 'Y U MATCH!'. */
 
 
 /* 7) Function - doubleEquals
