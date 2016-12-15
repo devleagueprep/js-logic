@@ -177,7 +177,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Boolean `thesis`
  *  @return Datatype: String
  *
- * The function will return the message: "Congratulations on a job well done." if either the number value is greater than 120 or boolean value is true, otherwise return the message: "See you in summer school."
+ * The function will return the message: "Congratulations on a job well done." if either the number value is greater than or equal to 120 or boolean value is true, otherwise return the message: "See you in summer school."
  * Console.log your result.
 */ 
 
