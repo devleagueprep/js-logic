@@ -16,22 +16,6 @@ if(today === "Friday"){
   return "Get back to coding!";
 };
 
-/*
-For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
-
-The for loop is made up for 3 parts:
-
-1) Initialization (i.e. var i = 0;)
-2) Condition (i.e. i<arr.length;)
-3) Update (i.e. i++)
-*/
-
-var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
-
-for (var i = 0; i<toyotaModels.length; i++){
-   console.log("Toyota " + toyotaModels[i]);
-}
-
 
 /*
  * #1
@@ -222,13 +206,32 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log budget and doughnutBought again.
 */ 
 
+/*
+For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
 
-/* 10) Function - looptoNumber
+The for loop is made up for 3 parts:
 
-  @param Datatype: Number `limit`
+1) Initialization (i.e. var i = 0;)
+2) Condition (i.e. i<arr.length;)
+3) Update (i.e. i++)
+*/
 
-Write a function that takes a single argument, a Number value named `limit`, and have the function write a for-loop that iterates a number of times equal to `limit` and logs the current value of `limit` on each iteration. */
+var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
 
+for (var i = 0; i<toyotaModels.length; i++){
+   console.log("Toyota " + toyotaModels[i]);
+}
+
+
+/* 
+ * #15
+ * Create a for loop that will iterate 5 times and console.log the following:
+ * "Player: 1"
+ * "Player: 2"
+ * "Player: 3"
+ * "Player: 4"
+ * "Player: 5"
+*/
 
 
 /* 11) Function - showEachValue
