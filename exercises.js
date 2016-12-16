@@ -265,7 +265,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Array `ballers`
  *  @return Datatype: Array
  *
- * The function will loop through the players array and will put all the even indexed players in the empty east array and the rest in the empty west array.
+ * The function will loop through the players array and will put all the even numbered indexed players in the empty east array and the rest in the empty west array.
  * Console.log both the east and west arrays.
 */ 
 
@@ -275,15 +275,17 @@ for (var i = 0; i<toyotaModels.length; i++){
 
 /*
  * #19
- * Function - moneyTrain
- * Create a function named `moneyTrain` which takes a parameter: `speed`.
+ * Function - subways
+ * Create a function named `subways` which takes a parameter: `special`.
  *
- *  @param Datatype: Number `speed`
- *  @return Datatype: String
+ *  @param Datatype: Array `special`
+ *  @return Datatype: Array
  *
- * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
- * Console.log your result.
+ * The function will loop through the array value and replace all the odd numbered indexed items with "Classic Tuna".
+ * Console.log your results.
 */ 
+
+  var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
 
 /*
