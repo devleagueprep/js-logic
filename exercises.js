@@ -238,8 +238,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
-
-var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
+  var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
 
 /*
@@ -260,15 +259,19 @@ var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "r
 
 /*
  * #18
- * Function - moneyTrain
- * Create a function named `moneyTrain` which takes a parameter: `speed`.
+ * Function - allStars
+ * Create a function named `allStars` which takes a parameter: `ballers`.
  *
- *  @param Datatype: Number `speed`
- *  @return Datatype: String
+ *  @param Datatype: Array `ballers`
+ *  @return Datatype: Array
  *
- * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
- * Console.log your result.
+ * The function will loop through the players array and will put all the even indexed players in the empty east array and the rest in the empty west array.
+ * Console.log both the east and west arrays.
 */ 
+
+  var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
+  var east = [];
+  var west = [];
 
 /*
  * #19
@@ -282,25 +285,21 @@ var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "r
  * Console.log your result.
 */ 
 
-/* 14) Function - totalUnderWhatFor
 
-  @param Datatype: Array 
-  @param Datatype: Number `total` 
-  @return Datatype: Boolean
+/*
+Final Boss
+ * #20
+ * Function - removeLetter
+ * Create a function named `removeLetter`, which takes a parameter `str`. 
+ *
+ *   @param Datatype: String `str`
+ *   @return Datatype: Array
+ *
+ *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. 
+*/
 
-Write a function that takes two arguments: (1) an Array with sequence of Number values, and (2) a Number named `total`. Return true if the sum of all values in the Array are less than `total`; otherwise, return false. */
-
-
-/*Final Boss*/
-/* 
-* #20
-
-) Function - createArrayFromString
-
-  @param Datatype: String `word`
-  @return Datatype: Array
-
-Write a function that takes a single variable of type String called `word` and write a for loop that creates an Array made up of each character in `word` except for "A" or "a". We don't want no stinking "A" or "a" in our Array. Note: You will need to use the Array.push() method to complete this function. */
+  var phrase = "An apple a day keeps Alice feeling awesome!"
+  
 
 
 
