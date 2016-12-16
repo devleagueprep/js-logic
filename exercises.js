@@ -194,14 +194,17 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log your result.
 */ 
 
-
-
-
-
-
-
-
-
+/*
+ * #12
+ * Function - speedRacer
+ * Create a function named `speedRacer` which takes a parameter: `speed`.
+ *
+ *  @param Datatype: Number `speed`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "You are riding the Honolulu HART.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you big ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * Console.log your result.
+*/ 
 
 
 /* 10) Function - looptoNumber
