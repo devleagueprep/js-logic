@@ -177,31 +177,30 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Boolean `thesis`
  *  @return Datatype: String
  *
- * The function will return the message: "Congratulations on a job well done." if either the number value is greater than or equal to 120 or boolean value is true, otherwise return the message: "See you in summer school."
+ * The function will return the message: "Congratulations on a job well done." if EITHER the number value is greater than or equal to 120 or boolean value is true, otherwise return the message: "See you in summer school."
  * Console.log your result.
 */ 
 
 
-/* 8) Function - totalOver30
+/*
+ * #12
+ * Function - speedRacer
+ * Create a function named `speedRacer` which takes a parameter: `speed`.
+ *
+ *  @param Datatype: Number `speed`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "You are riding the Honolulu HART.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * Console.log your result.
+*/ 
 
-  @param Datatype: Number `first`
-  @param Datatype: Number `second`
-  @param Datatype: Number `third`
-  @return Datatype: Boolean
-
-Write a function that takes three variables of type Number called first and second and third respectively. Return true if the sum of all values are greater than 30 otherwise return false. */
 
 
 
-/* 9) Function - totalUnderWhat
 
-  @param Datatype: Number `first`
-  @param Datatype: Number `second`
-  @param Datatype: Number `third`
-  @param Datatype: Number `fourth`
-  @return Datatype: Boolean
 
-Write a function that takes four variables of type Number called `first` and `second` and `third` and `fourth` respectively. Return true if the sum of `first`, `second` and `third` are less than `fourth`; otherwise, return false. */
+
+
 
 
 
