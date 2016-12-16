@@ -259,7 +259,19 @@ var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "r
 
 
 /*
- * #13
+ * #18
+ * Function - moneyTrain
+ * Create a function named `moneyTrain` which takes a parameter: `speed`.
+ *
+ *  @param Datatype: Number `speed`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * Console.log your result.
+*/ 
+
+/*
+ * #19
  * Function - moneyTrain
  * Create a function named `moneyTrain` which takes a parameter: `speed`.
  *
@@ -280,7 +292,10 @@ Write a function that takes two arguments: (1) an Array with sequence of Number 
 
 
 /*Final Boss*/
-/* 12) Function - createArrayFromString
+/* 
+* #20
+
+) Function - createArrayFromString
 
   @param Datatype: String `word`
   @return Datatype: Array
