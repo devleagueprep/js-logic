@@ -242,6 +242,33 @@ for (var i = 0; i<toyotaModels.length; i++){
 var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
 
+/*
+ * #17
+ * Function - sumItUp
+ * Create a function named sumItUp which takes a parameter: `arr`.
+ * 
+ *   @param Datatype: Array `arr`
+ *   @return Datatype: Number
+ * 
+ * Declare a variable named `numArray` and assign it with an array of 5 random numbers of your choice.
+ * Declare a variable named `total` and assign it with a number value of 0.
+ *
+ * The function will loop through and add up all the values in the array that is passed into the function and return the total.
+ * Console.log your result.
+*/
+
+
+/*
+ * #13
+ * Function - moneyTrain
+ * Create a function named `moneyTrain` which takes a parameter: `speed`.
+ *
+ *  @param Datatype: Number `speed`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * Console.log your result.
+*/ 
 
 /* 11) Function - showEachValue
 
