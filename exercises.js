@@ -149,27 +149,40 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Number `three`
  *  @return Datatype: Boolean
  *
- * The function will return true if the sum of all the number values is greater than 30, otherwise return false.
+ * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
  * Console.log your result.
 */ 
 
 
 /*
  * #10
- * Function - nightClub
- * Create a function named `nightClub` which takes two parameters: `cover` and `age`.
+ * Function - evenStevens
+ * Create a function named `evenStevens` which takes a parameter: `num`.
  *
- *  @param Datatype: Number `cover`
- *  @param Datatype: Number `age`
- *  @return Datatype: String
+ *  @param Datatype: Number `num`
+ *  @return Datatype: Boolean
  *
- * The function will return the message: "Welcome to the Legends Lounge." if BOTH values are over 21, otherwise return the message: "Chuck E Cheese is across the street."
+ * The function will return true if the number passed in is an even value, otherwise it will return false.
  * Console.log your result.
 */ 
 
 
 /*
  * #11
+ * Function - daClub
+ * Create a function named `daClub` which takes two parameters: `cover` and `age`.
+ *
+ *  @param Datatype: Number `cover`
+ *  @param Datatype: Number `age`
+ *  @return Datatype: String
+ *
+ * The function will return the message: "Welcome to the Legends Lounge." if BOTH values are over 21, otherwise it will return the message: "Chuck E Cheese is across the street."
+ * Console.log your result.
+*/ 
+
+
+/*
+ * #12
  * Function - graduation
  * Create a function named `graduation` which takes two parameters: `credits` and `thesis`.
  *
@@ -183,27 +196,30 @@ for (var i = 0; i<toyotaModels.length; i++){
 
 
 /*
- * #12
- * Function - speedRacer
- * Create a function named `speedRacer` which takes a parameter: `speed`.
+ * #13
+ * Function - moneyTrain
+ * Create a function named `moneyTrain` which takes a parameter: `speed`.
  *
  *  @param Datatype: Number `speed`
  *  @return Datatype: String
  *
- * The function will return the message: "You are riding the Honolulu HART.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
 
+
 /*
- * #12
- * Function - speedRacer
- * Create a function named `speedRacer` which takes a parameter: `speed`.
+ * #14
+ * Function - buyDoughnut
+ * Create a function named `buyDoughnut` which takes NO parameter.
+ * Declare a variable named `budget` and assign it with a number value that is greater than 20.
+ * Declare a variable named `doughnutPrice` and assign it with a number value that is greater than 0 but less than 6.
+ * Declare a variable named `doughnutBought` and assign it with a number value of 0.
  *
- *  @param Datatype: Number `speed`
- *  @return Datatype: String
- *
- * The function will return the message: "You are riding the Honolulu HART.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you big ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
- * Console.log your result.
+ * When the function is invoked, the budget will be decreased by the doughnutPrice and doughnutBought will increase by 1.
+ * Console.log budget and doughnutBought.
+ * Invoke your function again.
+ * Console.log budget and doughnutBought again.
 */ 
 
 
