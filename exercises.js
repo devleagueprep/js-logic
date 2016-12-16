@@ -270,32 +270,6 @@ var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "r
  * Console.log your result.
 */ 
 
-/* 11) Function - showEachValue
-
-  @param Datatype: Array `characters`
-
-Write a function that takes in a Array value named `characters`, which is a sequence of single character String values. The function should execute a for-loop that iterates over the array and prints each character. */
-
-
-
-/* 12) Function - createArrayFromString
-
-  @param Datatype: String `word`
-  @return Datatype: Array
-
-Write a function that takes a single variable of type String called `word` and write a for loop that creates an Array made up of each character in `word` except for "A" or "a". We don't want no stinking "A" or "a" in our Array. Note: You will need to use the Array.push() method to complete this function. */
-
-
-
-/* 13) Function - greatSummator
-
-  @param Datatype: Array 
-  @return Datatype: Number
-
-Write a function that takes an Array with sequence of Number values. The function should return the sum of the Array's Number values. */
-
-
-
 /* 14) Function - totalUnderWhatFor
 
   @param Datatype: Array 
@@ -305,10 +279,20 @@ Write a function that takes an Array with sequence of Number values. The functio
 Write a function that takes two arguments: (1) an Array with sequence of Number values, and (2) a Number named `total`. Return true if the sum of all values in the Array are less than `total`; otherwise, return false. */
 
 
+/*Final Boss*/
+/* 12) Function - createArrayFromString
 
-/* 15) Function - checkTrueValues
+  @param Datatype: String `word`
+  @return Datatype: Array
 
-  @param Datatype: Array 
-  @return Datatype: Boolean
+Write a function that takes a single variable of type String called `word` and write a for loop that creates an Array made up of each character in `word` except for "A" or "a". We don't want no stinking "A" or "a" in our Array. Note: You will need to use the Array.push() method to complete this function. */
 
-Write a function that takes an Array containing any number of type Boolean values. The function should execute a for-loop that invokes the `isTrue` function (defined earlier) with each value from the Array as input. The `checkTrueValues` function should return true if all values from the `isTrue` function return true. */
+
+
+
+
+
+
+
+
+
