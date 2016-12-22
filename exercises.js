@@ -1,9 +1,10 @@
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
+var today = new Date();
 
 if(today === "Friday"){
-  return "Let's Party!";
+  console.log("Let's Party!");
 };
 
 /*
@@ -11,9 +12,9 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 if(today === "Friday"){
-  return "Let's Party!";
+  console.log("Let's Party!");
 }else{
-  return "Get back to coding!";
+  console.log("Get back to coding!");
 };
 
 
@@ -77,7 +78,7 @@ if(today === "Friday"){
  *  @param Datatype: String `word`
  *  @return Datatype: String
  *
- * The function will return the message "Word to Big Bird!", if the string passed into the function is a three letter word. 
+ * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
 
@@ -91,7 +92,7 @@ if(today === "Friday"){
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * The function will return the message "You look mahvelous!", if the strings are equal, otherwise return the message: "I don't know who you are anymore." 
+ * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
 
@@ -105,7 +106,7 @@ if(today === "Friday"){
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * The function will return the message "Opposites do attract", if the strings are not equal, otherwise return the message: "Cause it's like you're my mirror." 
+ * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
 
@@ -118,7 +119,7 @@ if(today === "Friday"){
  *  @param Datatype: Number `money`
  *  @return Datatype: Boolean
  *
- * The function will return true if the number passed into the function is greater than 100, otherswise it will return false.
+ * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
 */ 
 
@@ -146,7 +147,7 @@ if(today === "Friday"){
  *  @param Datatype: Number `num`
  *  @return Datatype: Boolean
  *
- * The function will return true if the number passed in is an even value, otherwise it will return false.
+ * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
 */ 
 
@@ -160,7 +161,7 @@ if(today === "Friday"){
  *  @param Datatype: Number `age`
  *  @return Datatype: String
  *
- * The function will return the message: "Welcome to the Legends Lounge." if BOTH values are over 21, otherwise it will return the message: "Chuck E Cheese is across the street."
+ * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
 
@@ -174,7 +175,7 @@ if(today === "Friday"){
  *  @param Datatype: Boolean `thesis`
  *  @return Datatype: String
  *
- * The function will return the message: "Congratulations on a job well done." if EITHER the number value is greater than or equal to 120 or boolean value is true, otherwise return the message: "See you in summer school."
+ * If EITHER the number value is greater than or equal to 120 or the boolean value is true, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
 */ 
 
@@ -195,16 +196,17 @@ if(today === "Friday"){
 /*
  * #14
  * Function - buyDoughnut
- * Create a function named `buyDoughnut` which takes NO parameter.
  * Declare a variable named `budget` and assign it with a number value that is greater than 20.
  * Declare a variable named `doughnutPrice` and assign it with a number value that is greater than 0 but less than 6.
  * Declare a variable named `doughnutBought` and assign it with a number value of 0.
  *
+ * Create a function named `buyDoughnut` which takes NO parameters.
  * When the function is invoked, the budget will be decreased by the doughnutPrice and doughnutBought will increase by 1.
  * Console.log budget and doughnutBought.
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
@@ -244,14 +246,14 @@ for (var i = 0; i<toyotaModels.length; i++){
 /*
  * #17
  * Function - sumItUp
+ * Declare a variable named `numArray` and assign it with an array of 5 random numbers of your choice.
+ * Declare a variable named `total` and assign it with a number value of 0.
+ * 
  * Create a function named sumItUp which takes a parameter: `arr`.
  * 
  *   @param Datatype: Array `arr`
  *   @return Datatype: Number
  * 
- * Declare a variable named `numArray` and assign it with an array of 5 random numbers of your choice.
- * Declare a variable named `total` and assign it with a number value of 0.
- *
  * The function will loop through and add up all the values in the array that is passed into the function and return the total.
  * Console.log your result.
 */
@@ -265,7 +267,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  *  @param Datatype: Array `ballers`
  *  @return Datatype: Array
  *
- * The function will loop through the players array and will put all the even numbered indexed players in the empty east array and the rest in the empty west array.
+ * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
 */ 
 
@@ -297,7 +299,7 @@ Final Boss
  *   @param Datatype: String `str`
  *   @return Datatype: Array
  *
- *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. 
+ *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
 
   var phrase = "An apple a day keeps Alice feeling awesome!"

@@ -10,7 +10,5 @@
     - `$ cd js-logic`
 4. Open the js-logic assignment in sublime and write your code in the `exercises.js` file.
 5. From your terminal, use __node__ to test your code:
-   - `node exercises.js` (don't forget to console.log your work)
+   - `node exercises.js` (don't forget to console.log your work).
    
-
-    
