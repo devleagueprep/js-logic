@@ -1,21 +1,21 @@
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
-var today = new Date();
+/*var today = new Date();
 
 if(today === "Friday"){
   return "Let's Party!";
-};
+};*/
 
 /*
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
 
-if(today === "Friday"){
+/*if(today === "Friday"){
   return "Let's Party!";
 }else{
   return "Get back to coding!";
-};
+};*/
 
 
 /*
