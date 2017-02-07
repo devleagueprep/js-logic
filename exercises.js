@@ -4,7 +4,7 @@ If statements - Evaluates (or checks) a condition. If the condition is true, any
 var today = new Date();
 
 if(today === "Friday"){
-  console.log("Let's Party!");
+  return "Let's Party!";
 };
 
 /*
@@ -12,9 +12,9 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 if(today === "Friday"){
-  console.log("Let's Party!");
+  return "Let's Party!";
 }else{
-  console.log("Get back to coding!");
+  return "Get back to coding!";
 };
 
 
