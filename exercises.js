@@ -262,6 +262,26 @@ console.log(bigBird('che'));
  * Console.log budget and doughnutBought again.
 */
 
+var budget = 20;
+var doughnutPrice = 5;
+var doughnutBought = 0;
+
+function buyDoughnut(){
+  if (budget >= doughnutPrice){
+    budget = budget - doughnutPrice;
+    doughnutBought++;
+  } else {
+    return 'not enough funds';
+  }
+}
+
+console.log(budget);
+console.log(doughnutBought);
+buyDoughnut();
+console.log(budget);
+console.log(doughnutBought);
+
+
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
