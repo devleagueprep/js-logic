@@ -1,6 +1,18 @@
+//random student generator
+
+var students = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
+
+var randomIndex = Math.floor(Math.random() * students.length);
+var randomElement = students[randomIndex];
+
+console.log('Student:',randomElement);
+
+
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
+
+
 
 /*var today = new Date();
 
@@ -37,7 +49,7 @@ function canVote(age){
   } else {
     return false;
   }
-};
+}
 
 console.log('canVote:', canVote(15));
 console.log('canVote:', canVote(19));
@@ -269,7 +281,7 @@ var doughnutBought = 0;
 function buyDoughnut(){
   if (budget >= doughnutPrice){
     budget = budget - doughnutPrice;
-    doughnutBought++;
+    return doughnutBought++;
   } else {
     return 'not enough funds';
   }
