@@ -35,7 +35,7 @@ function canVote(age){
   if (age >= 18){
     return true;
   } else {
-    return false
+    return false;
   }
 };
 
@@ -55,6 +55,17 @@ console.log('canVote:', canVote(19));
  * Console.log your result.
 */
 
+function login(password){
+  if(password === 'test1234'){
+    return 'Login Success!';
+  } else {
+    return 'Login Fail!';
+  }
+}
+
+console.log('login:', login('test1234'));
+console.log('login:', login('test4321'));
+
 
 /*
  * #3
@@ -69,6 +80,16 @@ console.log('canVote:', canVote(19));
  * Console.log your result.
 */
 
+function isGreaterThan(first, second){
+  if(first > second){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('Is Greater Than:', isGreaterThan(2,1));
+console.log('Is Greater Than:', isGreaterThan(1,2));
 
 /*
  * #4
