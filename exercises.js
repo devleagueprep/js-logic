@@ -103,6 +103,17 @@ console.log('Is Greater Than:', isGreaterThan(1,2));
  * Console.log your result.
 */
 
+function mustbeTrue(boo){
+  if(boo === true){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('mustbeTrue:', mustbeTrue(true));
+console.log('mustbeTrue:', mustbeTrue(false));
+
 
 /*
  * #5
