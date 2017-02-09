@@ -127,6 +127,16 @@ console.log('mustbeTrue:', mustbeTrue(false));
  * Console.log your result.
 */
 
+function bigBird(word){
+  if(word === word.substring(0,3)){
+    return 'Word to Big Bird';
+  } else {
+    return 'Nah';
+  }
+}
+
+console.log(bigBird('che'));
+
 
 /*
  * #6
