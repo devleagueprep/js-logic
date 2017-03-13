@@ -38,8 +38,6 @@ function canVote(age){
 }
 console.log("1. canVote: ", canVote(19));
 
-
-
 /*
  * #2
  * Function - login
@@ -57,7 +55,6 @@ function login(password){
   return "Login Success!";
  }
 }
-
 console.log(login("test1234"));
 /*
  * #3
@@ -77,11 +74,10 @@ function isGreaterThan(first, second){
     return true;
   }
 }
-
 console.log(isGreaterThan(3, 1));
 
 var showResult = isGreaterThan(5, 1);
-console.log(showResult);
+console.log("isGreaterThan: ", showResult);
 
 /*
  * #4
@@ -103,8 +99,7 @@ function mustBeTrue(boo){
   }
 
 }
-
-console.log(mustBeTrue(true));
+console.log("mustBeTrue: ", mustBeTrue(true));
 
 /*
  * #5
@@ -118,15 +113,13 @@ console.log(mustBeTrue(true));
  * Console.log your result.
 */
 
-var arr = ["apple", "banana", "orange"];
-
 function bigBird(word){
   if(word.length === 3){
     return "Word to Big Bird!";
   }
 }
 
-console.log(bigBird(arr));
+console.log("bigBird: ", bigBird("cat"));
 
 /*
  * #6
@@ -141,6 +134,14 @@ console.log(bigBird(arr));
  * Console.log your result.
 */
 
+function isEqual(first, second){
+if(first === second){
+  return "You look mahvelous!";
+}else{
+  return "I don't know who you are anymore."; 
+  }
+}
+console.log(isEqual("ying", "yang"));
 
 /*
  * #7
@@ -155,6 +156,14 @@ console.log(bigBird(arr));
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if(first !== second){
+    return "Opposites do attract.";
+  }else{
+    return "Cause it's like you're my mirror." ;
+  }
+}
+console.log(notEqual("sweet", "sour"));
 
 /*
  * #8
@@ -168,9 +177,15 @@ console.log(bigBird(arr));
  * Console.log your result.
 */ 
 
+function spareChange(money){
+  if(money >100){
+    return true;
+  }else{
+    return false;
+  }
+}
 
-
-
+console.log("spareChange: ", spareChange(101));
 
 /*
  * #9
@@ -186,7 +201,15 @@ console.log(bigBird(arr));
  * Console.log your result.
 */ 
 
-
+function dirty30(one, two, three){
+  var sum = one + two + three;
+  if(sum > 30){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("dirty30: ", dirty30(10, 20, 25));
 
 /*
  * #10
@@ -207,9 +230,7 @@ function evenStevens(num){
     return false;
   }
 }
-
 console.log("evenStevens ", evenStevens(8));
-
 
 
 /*
@@ -226,6 +247,15 @@ console.log("evenStevens ", evenStevens(8));
 */ 
 
 
+function daClub(cover, age){
+  if(cover >= 21 && age >= 21){
+    return "Welcome to the Legends Lounge.";
+  }else{
+    return "Chuck E Cheese is across the street.";
+  }
+}
+console.log("daClub: ", daClub(22, 21));
+
 /*
  * #12
  * Function - graduation
@@ -240,16 +270,14 @@ console.log("evenStevens ", evenStevens(8));
 */ 
 
 function graduation(credits, thesis){
- if(credits >= 120 || thesis){
+ if(credits >= 120 || thesis === true){
   return "Congratulations on a job well done.";
  }else{
   return "See you in summer school.";
  }
-
 }
-
-var gradResults = graduation(120, true);
-console.log(gradResults);
+var gradResults = graduation(100, true);
+console.log("graduuation: ", gradResults);
 
 /*
  * #13
@@ -262,6 +290,17 @@ console.log(gradResults);
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
+
+function moneyTrain(speed){
+  if(speed < 50){
+    return "You are riding Honolulu's Rail.";
+  }else if(speed < 100){
+    return "You are riding an Amtrak.";
+  }else{
+    return "Now you ballin' in the Shinkansen!";
+  }
+}
+console.log(moneyTrain(99));
 
 
 /*
@@ -283,16 +322,16 @@ var doughnutPrice = 5;
 var doughnutBought = 0;
 
 function buyDoughnut(){
- if(budget >= doughnutPrice){
-   budget = budget - doughnutPrice; 
-  //budget -= doughnutPrice;
+ if(budget >= doughnutPrice){ 
+  budget -= doughnutPrice;
   doughnutBought++;
  }
 }
 
-
+buyDoughnut();
 console.log("budget ", budget);
 console.log("bought ", doughnutBought);
+
 
 
 
@@ -323,6 +362,9 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+for(var i = 1; i<=5; i++){
+  console.log("player ", i);
+}
 
 /* 
  * #16
@@ -330,6 +372,9 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+  for(var i = 0; i<myFavFoods.length; i++){
+    console.log(myFavFoods[i]);
+  }
 
 /*
  * #17
@@ -349,9 +394,8 @@ for (var i = 0; i<toyotaModels.length; i++){
 
 var numArray = [22, 33, 44, 55, 66];
 
-var total = 0;
-
 function sumItUp(arr){
+  var total = 0;
   for(var i = 0; i<arr.length; i++){
     console.log(arr[i]);
     total += arr[i]; // total = total + arr[i];
@@ -361,6 +405,7 @@ function sumItUp(arr){
 }
 
 console.log("sumitup ", sumItUp(numArray));
+
 /*
  * #18
  * Function - allStars
@@ -388,13 +433,9 @@ console.log("sumitup ", sumItUp(numArray));
       }
     }
   }
-
   allStars(players);
-  console.log(east);
-  console.log(west);
-
-
-
+  console.log("east: ", east);
+  console.log("west: ", west);
 
 /*
  * #19
@@ -420,9 +461,7 @@ function subways(special){
 
   }
  return special;
-
 }
-
 
 subways(subOftheDay);
 console.log(subOftheDay);
@@ -451,9 +490,7 @@ Final Boss
     }
     console.log(newArr);
     return newArr;
-
   } 
-
 removeLetter(phrase);
 
   
