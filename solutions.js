@@ -29,6 +29,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(age){
+  if(age >= 18){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("1. canVote: ", canVote(19));
+
+
 
 /*
  * #2
@@ -42,7 +52,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function login(password){
+ if(password === "test1234"){
+  return "Login Success!";
+ }
+}
 
+console.log(login("test1234"));
 /*
  * #3
  * Function - isGreaterThan
@@ -56,7 +72,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function isGreaterThan(first, second){
+  if(first > second){
+    return true;
+  }
+}
 
+console.log(isGreaterThan(3, 1));
+
+var showResult = isGreaterThan(5, 1);
+console.log(showResult);
 
 /*
  * #4
@@ -70,7 +95,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+  if(boo === true){
+    return true;
+  }else{
+    return false;
+  }
 
+}
+
+console.log(mustBeTrue(true));
 
 /*
  * #5
@@ -84,7 +118,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+var arr = ["apple", "banana", "orange"];
 
+function bigBird(word){
+  if(word.length === 3){
+    return "Word to Big Bird!";
+  }
+}
+
+console.log(bigBird(arr));
 
 /*
  * #6
@@ -128,6 +170,8 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 
 
 
+
+
 /*
  * #9
  * Function - dirty30
@@ -156,6 +200,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function evenStevens(num){
+  if(num%2 === 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log("evenStevens ", evenStevens(8));
 
 
 
@@ -186,7 +239,17 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function graduation(credits, thesis){
+ if(credits >= 120 || thesis){
+  return "Congratulations on a job well done.";
+ }else{
+  return "See you in summer school.";
+ }
 
+}
+
+var gradResults = graduation(120, true);
+console.log(gradResults);
 
 /*
  * #13
@@ -215,7 +278,21 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log budget and doughnutBought again.
 */ 
 
+var budget = 100;
+var doughnutPrice = 5;
+var doughnutBought = 0;
 
+function buyDoughnut(){
+ if(budget >= doughnutPrice){
+   budget = budget - doughnutPrice; 
+  //budget -= doughnutPrice;
+  doughnutBought++;
+ }
+}
+
+
+console.log("budget ", budget);
+console.log("bought ", doughnutBought);
 
 
 
@@ -270,7 +347,20 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
+var numArray = [22, 33, 44, 55, 66];
 
+var total = 0;
+
+function sumItUp(arr){
+  for(var i = 0; i<arr.length; i++){
+    console.log(arr[i]);
+    total += arr[i]; // total = total + arr[i];
+  }
+  return total;
+
+}
+
+console.log("sumitup ", sumItUp(numArray));
 /*
  * #18
  * Function - allStars
@@ -282,6 +372,29 @@ for (var i = 0; i<toyotaModels.length; i++){
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
 */ 
+
+  var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
+  var east = [];
+  var west = [];
+
+  function allStars(ballers){
+    for(var i = 0; i<ballers.length; i++){
+      console.log(ballers[i]);
+      if(i%2 === 0){
+        //console.log(i);
+      east.push(ballers[i]);
+      }else{
+        west.push(ballers[i]);
+      }
+    }
+  }
+
+  allStars(players);
+  console.log(east);
+  console.log(west);
+
+
+
 
 /*
  * #19
@@ -297,6 +410,22 @@ for (var i = 0; i<toyotaModels.length; i++){
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+function subways(special){
+  for(var i = 0; i<special.length; i++){
+    if(i%2 === 1){
+      console.log(i);
+      special.splice(i, 1, "Classic Tuna"); 
+      special[i] = "Classic Tuna";
+    }
+
+  }
+ return special;
+
+}
+
+
+subways(subOftheDay);
+console.log(subOftheDay);
 
 /*
 Final Boss
@@ -310,7 +439,23 @@ Final Boss
  *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
 
- 
+  var phrase = "An apple a day keeps Alice feeling awesome!";
+
+  function removeLetter(str){
+    var newArr = [];
+    for(var i = 0; i<str.length; i++){
+      console.log(str[i]);
+      if(str[i] !== 'a' && str[i] !== "A"){
+        newArr.push(str[i]);
+      }
+    }
+    console.log(newArr);
+    return newArr;
+
+  } 
+
+removeLetter(phrase);
+
   
   
 
