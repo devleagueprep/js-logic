@@ -1,13 +1,3 @@
-//random student generator
-
-var students = ['Christine', 'Jacob', 'Anthony', 'Earnest', 'Ann', 'Ella', 'James', 'Joshua', 'Kaleo', 'Ulu', 'Gaganvir'];
-
-var randomIndex = Math.floor(Math.random() * students.length);
-var randomElement = students[randomIndex];
-
-console.log('Student:',randomElement);
-
-
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
@@ -269,6 +259,7 @@ console.log(bigBird('che'));
  *
  * Create a function named `buyDoughnut` which takes NO parameters.
  * When the function is invoked, the budget will be decreased by the doughnutPrice and doughnutBought will increase by 1.
+ * Your function should return a message 'Not enough money' if you run out of money in your budget
  * Console.log budget and doughnutBought.
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
@@ -362,6 +353,12 @@ for (var i = 0; i<toyotaModels.length; i++){
   var east = [];
   var west = [];
 
+  function allStars(ballers){
+    for (var i = 0; i < ballers.length; i++) {
+
+    }
+  }
+
 /*
  * #19
  * Function - subways
@@ -389,15 +386,17 @@ Final Boss
  *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
 
-  var phrase = "An apple a day keeps Alice feeling awesome!"
+  var phrase = "An apple a day keeps Alice feeling awesome!";
 
+  function removeLetter(str){
+    var newArr = [];
+    for (var i = 0; i < str.length; i++){
+      if (str[i] != 'a' && str[i] != 'A'){
+        newArr.push(str[i]);
+      }
+    }
+    console.log(newArr);
+    return newArr;
+  }
 
-
-
-
-
-
-
-
-
-
+  removeLetter(phrase);
