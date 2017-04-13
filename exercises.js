@@ -283,6 +283,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log both the east and west arrays.
 */ 
 
+var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
 /*
  * #19
  * Function - subways
