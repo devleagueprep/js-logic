@@ -418,7 +418,7 @@ console.log("sumitup ", sumItUp(numArray));
  * Console.log both the east and west arrays.
 */ 
 
-  var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
+  var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
   var east = [];
   var west = [];
 
