@@ -29,6 +29,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(age){
+  if(age>=18){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('#1 canVote: ',canVote(19));
 
 /*
  * #2
@@ -42,6 +51,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function login(password){
+  if(password === 'test1234'){
+    return "Login Success!";
+  }
+}
+
+console.log('#2 Login: ',login('test1234'))
 
 /*
  * #3
@@ -80,7 +96,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `word`
  *  @return Datatype: String
  *
- * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
+ * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word.
  * Console.log your result.
 */
 
@@ -95,7 +111,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
+ * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore."
  * Console.log your result.
 */
 
@@ -109,7 +125,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
+ * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror."
  * Console.log your result.
 */
 
@@ -124,7 +140,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -140,7 +156,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -154,7 +170,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -170,7 +186,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
-*/ 
+*/
 
 
 /*
@@ -184,7 +200,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * If EITHER the number value is greater than or equal to 120 or the boolean value is true, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -198,7 +214,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
-*/ 
+*/
 
 
 /*
@@ -213,7 +229,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log budget and doughnutBought.
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
-*/ 
+*/
 
 
 
@@ -236,7 +252,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 }
 
 
-/* 
+/*
  * #15
  * Create a for loop that will iterate 5 times and console.log the following:
  * "Player: 1"
@@ -247,7 +263,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
-/* 
+/*
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
@@ -259,12 +275,12 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Function - sumItUp
  * Declare a variable named `numArray` and assign it with an array of 5 random numbers of your choice.
  * Declare a variable named `total` and assign it with a number value of 0.
- * 
+ *
  * Create a function named sumItUp which takes a parameter: `arr`.
- * 
+ *
  *   @param Datatype: Array `arr`
  *   @return Datatype: Number
- * 
+ *
  * The function will loop through and add up all the values in the array that is passed into the function and return the total.
  * Console.log your result.
 */
@@ -281,7 +297,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  *
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
-*/ 
+*/
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
 /*
@@ -294,7 +310,7 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
  *
  * The function will loop through the array value and replace all the odd numbered indexed items with "Classic Tuna".
  * Console.log your results.
-*/ 
+*/
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
@@ -303,7 +319,7 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 Final Boss
  * #20
  * Function - removeLetter
- * Create a function named `removeLetter`, which takes a parameter `str`. 
+ * Create a function named `removeLetter`, which takes a parameter `str`.
  *
  *   @param Datatype: String `str`
  *   @return Datatype: Array
@@ -312,9 +328,9 @@ Final Boss
 */
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
- 
-  
-  
+
+
+
 
 
 
