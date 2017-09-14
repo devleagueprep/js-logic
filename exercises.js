@@ -2,8 +2,6 @@
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
 
-
-
 /*var today = new Date();
 
 if(today === "Friday"){
@@ -20,8 +18,6 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
-
-
 /*
  * #1
  * Function - canVote
@@ -33,7 +29,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
-function canVote(age){
+/*function canVote(age){
   if (age >= 18){
     return true;
   } else {
@@ -42,7 +38,7 @@ function canVote(age){
 }
 
 console.log('canVote:', canVote(15));
-console.log('canVote:', canVote(19));
+console.log('canVote:', canVote(19));*/
 
 
 /*
@@ -57,7 +53,7 @@ console.log('canVote:', canVote(19));
  * Console.log your result.
 */
 
-function login(password){
+/*function login(password){
   if(password === 'test1234'){
     return 'Login Success!';
   } else {
@@ -66,7 +62,7 @@ function login(password){
 }
 
 console.log('login:', login('test1234'));
-console.log('login:', login('test4321'));
+console.log('login:', login('test4321'));*/
 
 
 /*
@@ -82,7 +78,7 @@ console.log('login:', login('test4321'));
  * Console.log your result.
 */
 
-function isGreaterThan(first, second){
+/*function isGreaterThan(first, second){
   if(first > second){
     return true;
   } else {
@@ -91,7 +87,7 @@ function isGreaterThan(first, second){
 }
 
 console.log('Is Greater Than:', isGreaterThan(2,1));
-console.log('Is Greater Than:', isGreaterThan(1,2));
+console.log('Is Greater Than:', isGreaterThan(1,2));*/
 
 /*
  * #4
@@ -105,7 +101,7 @@ console.log('Is Greater Than:', isGreaterThan(1,2));
  * Console.log your result.
 */
 
-function mustbeTrue(boo){
+/*function mustbeTrue(boo){
   if(boo === true){
     return true;
   } else {
@@ -114,7 +110,7 @@ function mustbeTrue(boo){
 }
 
 console.log('mustbeTrue:', mustbeTrue(true));
-console.log('mustbeTrue:', mustbeTrue(false));
+console.log('mustbeTrue:', mustbeTrue(false));*/
 
 
 /*
@@ -129,7 +125,7 @@ console.log('mustbeTrue:', mustbeTrue(false));
  * Console.log your result.
 */
 
-function bigBird(word){
+/*function bigBird(word){
   if(word === word.substring(0,3)){
     return 'Word to Big Bird';
   } else {
@@ -137,7 +133,7 @@ function bigBird(word){
   }
 }
 
-console.log(bigBird('che'));
+console.log(bigBird('che'));*/
 
 
 /*
@@ -265,7 +261,7 @@ console.log(bigBird('che'));
  * Console.log budget and doughnutBought again.
 */
 
-var budget = 20;
+/*var budget = 20;
 var doughnutPrice = 5;
 var doughnutBought = 0;
 
@@ -283,7 +279,7 @@ console.log(doughnutBought);
 buyDoughnut();
 console.log(budget);
 console.log(doughnutBought);
-
+*/
 
 
 /*
@@ -337,6 +333,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
+
 /*
  * #18
  * Function - allStars
@@ -349,7 +346,7 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Console.log both the east and west arrays.
 */
 
-  var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
+  /*var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
   var east = [];
   var west = [];
 
@@ -357,7 +354,7 @@ for (var i = 0; i<toyotaModels.length; i++){
     for (var i = 0; i < ballers.length; i++) {
 
     }
-  }
+  }*/
 
 /*
  * #19
@@ -388,7 +385,7 @@ Final Boss
 
   var phrase = "An apple a day keeps Alice feeling awesome!";
 
-  function removeLetter(str){
+ /* function removeLetter(str){
     var newArr = [];
     for (var i = 0; i < str.length; i++){
       if (str[i] != 'a' && str[i] != 'A'){
@@ -399,4 +396,4 @@ Final Boss
     return newArr;
   }
 
-  removeLetter(phrase);
+  removeLetter(phrase);*/
