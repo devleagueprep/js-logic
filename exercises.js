@@ -57,7 +57,7 @@ function login(password){
   }
 }
 
-console.log('#2 Login: ',login('test1234'))
+console.log('#2 Login: ',login('test1234'));
 
 /*
  * #3
@@ -72,7 +72,15 @@ console.log('#2 Login: ',login('test1234'))
  * Console.log your result.
 */
 
+function isGreaterThan(first,second){
+  if(first>second){
+    return true;
+  } else {
+    return false;
+  }
+}
 
+console.log(isGreaterThan(3,5));
 
 /*
  * #4
@@ -86,6 +94,16 @@ console.log('#2 Login: ',login('test1234'))
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+  if(boo === true){
+    return true;
+  } else {
+    return false;
+  }
+
+}
+
+console.log('mustbeTrue: ',mustBeTrue('three' === 3));
 
 
 /*
@@ -100,7 +118,15 @@ console.log('#2 Login: ',login('test1234'))
  * Console.log your result.
 */
 
+function bigBird(word){
+  if(word.length === 3){
+    return 'word to big bird!';
+  } else {
+    return 'false'
+  }
+}
 
+console.log(bigBird('bobhjnfiokdshiouafh'));
 
 /*
  * #6
@@ -115,6 +141,15 @@ console.log('#2 Login: ',login('test1234'))
  * Console.log your result.
 */
 
+function isEqual(first,second){
+  if(first === second){
+    return 'You look mahvelous!';
+  } else {
+    return 'You know nothing jon snow';
+  }
+}
+
+console.log(isEqual('yin','yang'));
 
 /*
  * #7
