@@ -207,7 +207,11 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log budget and doughnutBought.
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
-*/
+
+
+/*Final Boss*/
+/*Create a function name dailySpecials which takes in a parameter: `special`.
+Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
 
 
 
