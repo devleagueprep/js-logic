@@ -29,15 +29,6 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
-function canVote(age){
-  if(age>=18){
-    return true;
-  } else {
-    return false;
-  }
-}
-
-console.log('#1 canVote: ',canVote(19));
 
 /*
  * #2
@@ -51,13 +42,6 @@ console.log('#1 canVote: ',canVote(19));
  * Console.log your result.
 */
 
-function login(password){
-  if(password === 'test1234'){
-    return "Login Success!";
-  }
-}
-
-console.log('#2 Login: ',login('test1234'));
 
 /*
  * #3
@@ -72,15 +56,6 @@ console.log('#2 Login: ',login('test1234'));
  * Console.log your result.
 */
 
-function isGreaterThan(first,second){
-  if(first>second){
-    return true;
-  } else {
-    return false;
-  }
-}
-
-console.log(isGreaterThan(3,5));
 
 /*
  * #4
@@ -93,17 +68,6 @@ console.log(isGreaterThan(3,5));
  * The function will return true if the value passed into the function is "true".
  * Console.log your result.
 */
-
-function mustBeTrue(boo){
-  if(boo === true){
-    return true;
-  } else {
-    return false;
-  }
-
-}
-
-console.log('mustbeTrue: ',mustBeTrue('three' === 3));
 
 
 /*
@@ -118,15 +82,6 @@ console.log('mustbeTrue: ',mustBeTrue('three' === 3));
  * Console.log your result.
 */
 
-function bigBird(word){
-  if(word.length === 3){
-    return 'word to big bird!';
-  } else {
-    return 'false'
-  }
-}
-
-console.log(bigBird('bobhjnfiokdshiouafh'));
 
 /*
  * #6
@@ -141,15 +96,6 @@ console.log(bigBird('bobhjnfiokdshiouafh'));
  * Console.log your result.
 */
 
-function isEqual(first,second){
-  if(first === second){
-    return 'You look mahvelous!';
-  } else {
-    return 'You know nothing jon snow';
-  }
-}
-
-console.log(isEqual('yin','yang'));
 
 /*
  * #7
@@ -178,7 +124,6 @@ console.log(isEqual('yin','yang'));
 */
 
 
-
 /*
  * #9
  * Function - dirty30
@@ -194,7 +139,6 @@ console.log(isEqual('yin','yang'));
 */
 
 
-
 /*
  * #10
  * Function - evenStevens
@@ -206,7 +150,6 @@ console.log(isEqual('yin','yang'));
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
 */
-
 
 
 
@@ -268,8 +211,6 @@ console.log(isEqual('yin','yang'));
 
 
 
-
-
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
 
@@ -289,7 +230,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 
 /*
  * #15
- * Create a for loop that will iterate 5 times and console.log the following:
+ * Create a for loop that will iterate 5 times and console.log the following in your termial:
  * "Player: 1"
  * "Player: 2"
  * "Player: 3"
@@ -363,16 +304,3 @@ Final Boss
 */
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
-
-
-
-
-
-
-
-
-
-
-
-
-
