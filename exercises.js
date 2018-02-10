@@ -213,6 +213,12 @@ console.log(dirty30(-1,-2,25));
  * Console.log your result.
 */ 
 
+function evenStevens(num) {
+	return num % 2 === 0;
+}
+
+console.log(evenStevens(1));
+console.log(evenStevens(2));
 
 
 
