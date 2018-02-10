@@ -171,6 +171,12 @@ console.log(notEqual("a","a"));
  * Console.log your result.
 */ 
 
+function spareChange(money) {
+	return money > 100;
+}
+
+console.log(spareChange(100));
+console.log(spareChange(101));
 
 
 /*
