@@ -70,6 +70,12 @@ console.log(login("test"));
  * Console.log your result.
 */
 
+function isGreaterThan(first, second) {
+	return first > second;
+}
+
+console.log(isGreaterThan(1,2));
+console.log(isGreaterThan(2,1));
 
 
 /*
