@@ -49,6 +49,13 @@ console.log(canVote(16));
  * Console.log your result.
 */
 
+function login(password) {
+	return password === "test1234" ? "Login Success" : "Login Failed";
+}
+
+console.log(login("test1234"));
+console.log(login("test"));
+
 
 /*
  * #3
