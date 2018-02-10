@@ -90,6 +90,12 @@ console.log(isGreaterThan(2,1));
  * Console.log your result.
 */
 
+function mustBeTrue(boo) {
+	return boo === true;
+}
+
+console.log(mustBeTrue("boo"));
+console.log(true);
 
 
 /*
