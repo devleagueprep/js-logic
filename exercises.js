@@ -7,6 +7,7 @@ if(today === "Friday"){
   return "Let's Party!";
 };*/
 
+
 /*
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
@@ -29,6 +30,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(age) {
+
+	return age >= 16
+}
+
+console.log(canVote(16));
 
 /*
  * #2
@@ -41,6 +48,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
+
+function login(password) {
+	return password === "test1234" ? "Login Success" : "Login Failed";
+}
+
+console.log(login("test1234"));
+console.log(login("test"));
 
 
 /*
@@ -56,6 +70,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function isGreaterThan(first, second) {
+	return first > second;
+}
+
+console.log(isGreaterThan(1,2));
+console.log(isGreaterThan(2,1));
 
 
 /*
@@ -70,6 +90,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function mustBeTrue(boo) {
+	return boo === true;
+}
+
+console.log(mustBeTrue("boo"));
+console.log(mustBeTrue(true));
 
 
 /*
@@ -84,7 +110,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
-
+function bigBird(word) {
+	if (word.length === 3) {
+		return "Word to Big Bird!";
+	}
+}
+console.log(bigBird("abc"));
+console.log(bigBird("abcd"));
 
 /*
  * #6
@@ -98,6 +130,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
+
+function isEqual(first, second) {
+	return first === second ? "You look mahvelous!" : "I don't know who you are anymore.";
+}
+
+console.log(isEqual("a","b"));
+console.log(isEqual("a","a"));
 
 
 /*
@@ -113,6 +152,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function notEqual(first, second) {
+	return first !== second ? "Opposites do attract." : "Cause it's like you're my mirror.";
+}
+
+console.log(notEqual("a","b"));
+console.log(notEqual("a","a"));
 
 /*
  * #8
@@ -126,6 +171,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function spareChange(money) {
+	return money > 100;
+}
+
+console.log(spareChange(100));
+console.log(spareChange(101));
 
 
 /*
@@ -142,6 +193,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function dirty30(one, two, three) {
+	return (one + two + three) > 30; 
+}
+
+console.log(dirty30(-1,-2,100));
+console.log(dirty30(-1,-2,25));
 
 
 /*
@@ -156,6 +213,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function evenStevens(num) {
+	return num % 2 === 0;
+}
+
+console.log(evenStevens(1));
+console.log(evenStevens(2));
 
 
 
@@ -172,6 +235,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function daClub(cover, age) {
+	return (cover >= 21) && (age >= 21) ? "Welcome to the Legends Lounge." : "Chuck E Cheese is across the street.";
+}
+
+console.log(daClub(21,21));
+console.log(daClub(19,21));
+
 
 /*
  * #12
@@ -186,6 +256,14 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */ 
 
+function graduation(credits, thesis) {
+	return (credits >= 120) || (thesis === true) ? "Congratulations on a job well done." : "See you in summer school.";
+}
+
+console.log(graduation(120, true));
+console.log(graduation(1, false));
+console.log(graduation(1, "d"));
+
 
 
 /*
@@ -199,6 +277,23 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
+
+function moneyTrain(speed) {
+	var message = "";
+	if (speed < 50) {
+		message = "You are riding Honolulu's Rail.";
+	} else if (speed < 100) {
+		message = "You are riding an Amtrak.";
+	} else if (speed >= 100) {
+		message = "Now you ballin' in the Shinkansen!";
+	}
+	return message;
+
+}
+
+console.log(moneyTrain(10));
+console.log(moneyTrain(60));
+console.log(moneyTrain(101));
 
 
 /*
