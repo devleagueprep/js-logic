@@ -131,6 +131,13 @@ console.log(bigBird("abcd"));
  * Console.log your result.
 */
 
+function isEqual(first, second) {
+	return first === second ? "You look mahvelous!" : "I don't know who you are anymore.";
+}
+
+console.log(isEqual("a","b"));
+console.log(isEqual("a","a"));
+
 
 /*
  * #7
