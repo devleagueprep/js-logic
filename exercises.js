@@ -256,6 +256,14 @@ console.log(daClub(19,21));
  * Console.log your result.
 */ 
 
+function graduation(credits, thesis) {
+	return (credits >= 120) || (thesis === true) ? "Congratulations on a job well done." : "See you in summer school.";
+}
+
+console.log(graduation(120, true));
+console.log(graduation(1, false));
+console.log(graduation(1, "d"));
+
 
 
 /*
