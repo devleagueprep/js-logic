@@ -152,6 +152,12 @@ console.log(isEqual("a","a"));
  * Console.log your result.
 */
 
+function notEqual(first, second) {
+	return first !== second ? "Opposites do attract." : "Cause it's like you're my mirror.";
+}
+
+console.log(notEqual("a","b"));
+console.log(notEqual("a","a"));
 
 /*
  * #8
