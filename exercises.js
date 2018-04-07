@@ -30,13 +30,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 function canVote(age){
-  if(age >= 18){
-    return true;
-  }
-
+ if(age >=18){
+   return true;
+ }
 }
 
-console.log(canVote(18));
+console.log(canVote(19));
 
 
 /*
