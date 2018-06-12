@@ -17,6 +17,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
+console.log('test')
 
 /*
  * #1
@@ -29,8 +30,6 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
-console.log('test');
-console.log('another test');
 
 
 
@@ -88,7 +87,15 @@ console.log('another test');
  * Console.log your result.
 */
 
+var word = 'cat' //global scope
+console.log(word.length)
 
+function bigBird(word){
+  if(word.length === 3){
+    return 'Word to Big Bird';
+  }
+}
+console.log(bigBird('monkey'))
 
 /*
  * #6
@@ -218,6 +225,22 @@ console.log('another test');
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 30;
+var doughnutPrice = 5;
+var doughnutBought = 0;
+
+function buyDoughnut(){
+  if(budget >= doughnutPrice){
+    budget -=doughnutPrice; // budget = budget - price
+    doughnutBought++;
+  }
+}
+buyDoughnut();
+
+console.log('budget', budget);
+console.log('donuts bought', doughnutBought);
+
+
 
 
 
