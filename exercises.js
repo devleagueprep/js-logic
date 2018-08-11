@@ -18,6 +18,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 };*/
 
 console.log('test')
+console.log('my first commit')
 
 /*
  * #1
@@ -90,12 +91,7 @@ console.log('test')
 var word = 'cat' //global scope
 console.log(word.length)
 
-function bigBird(word){
-  if(word.length === 3){
-    return 'Word to Big Bird';
-  }
-}
-console.log(bigBird('monkey'))
+
 
 /*
  * #6
@@ -225,20 +221,7 @@ console.log(bigBird('monkey'))
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
-var budget = 30;
-var doughnutPrice = 5;
-var doughnutBought = 0;
 
-function buyDoughnut(){
-  if(budget >= doughnutPrice){
-    budget -=doughnutPrice; // budget = budget - price
-    doughnutBought++;
-  }
-}
-buyDoughnut();
-
-console.log('budget', budget);
-console.log('donuts bought', doughnutBought);
 
 
 
