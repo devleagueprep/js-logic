@@ -17,9 +17,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
-console.log('test')
-console.log('my first commit')
-console.log('my second commit')
+
 
 /*
  * #1
@@ -32,7 +30,10 @@ console.log('my second commit')
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
+function canVote(){
 
+  
+}
 
 
 /*
