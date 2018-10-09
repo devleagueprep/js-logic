@@ -52,7 +52,15 @@ console.log('test')
  * Console.log your result.
 */
 
+function login(password){
+  if(password === 'test1234'){
+    return 'Login Success!!!!!';
+  }else{
+    return 'get outta hea with 7 bangs!!!!!!!!!!!!!!'
+  }
+}
 
+console.log(login('test12345'))
 /*
  * #3
  * Function - isGreaterThan
