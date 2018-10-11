@@ -1,6 +1,6 @@
 # js-logic
 
-##Getting Started
+## Getting Started
 1. **Fork** this repository
 2. **Clone** this repository from your personal Github account:
     - Copy the HTTPS or SSH address on the page.
