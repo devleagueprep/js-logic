@@ -12,6 +12,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 console.log('hello world')
+console.log('another test')
 
 
 
