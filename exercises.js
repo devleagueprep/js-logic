@@ -176,13 +176,13 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 /*
  * #12
  * Function - graduation
- * Create a function named `graduation` which takes two parameters: `credits` and `thesis`.
+ * Create a function named `graduation` which takes two parameters: `credits` and `grades`.
  *
- *  @param Datatype: Number `credit`
- *  @param Datatype: Boolean `thesis`
+ *  @param Datatype: Number `credits`
+ *  @param Datatype: Number `grades`
  *  @return Datatype: String
  *
- * If EITHER the number value is greater than or equal to 120 or the boolean value is true, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
+ * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
 */ 
 
