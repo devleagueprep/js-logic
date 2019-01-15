@@ -267,7 +267,7 @@ console.log("daClub: ", daClub(22, 21));
  *
  * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
-*
+*/
 
 function graduation(credits, grades){
  if(credits >= 120 || grades >= 2.0){
