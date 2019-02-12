@@ -11,11 +11,10 @@ if(today === "Friday"){
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
 
-/*if(today === "Friday"){
-  return "Let's Party!";
-}else{
-  return "Get back to coding!";
-};*/
+console.log('hello world')
+console.log('another test')
+
+
 
 
 /*
@@ -28,6 +27,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
+function canVote(age){
+  if(age >= 18){
+    return true;
+  }
+
+}
+
+console.log('can vote results', canVote(18))
+console.log('test')
 
 
 /*
@@ -42,7 +50,15 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+function login(password){
+  if(password === 'test1234'){
+    return 'Login Success!!!!!';
+  }else{
+    return 'get outta hea with 7 bangs!!!!!!!!!!!!!!'
+  }
+}
 
+console.log(login('test12345'))
 /*
  * #3
  * Function - isGreaterThan
@@ -83,6 +99,9 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
+
+var word = 'cat' //global scope
+console.log(word.length)
 
 
 
@@ -218,6 +237,9 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
+
+
+
 
 
 
