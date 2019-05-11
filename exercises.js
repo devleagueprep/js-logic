@@ -11,8 +11,7 @@ if(today === "Friday"){
 If/else statements = Evaluates (or checks) a condition. If the condition is true, the first code block is executed. If the condition is false, the second code block is executed instead.
 */
 
-console.log('hello world')
-console.log('another test')
+console.log('test')
 
 
 
@@ -27,15 +26,7 @@ console.log('another test')
  *
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
-function canVote(age){
-  if(age >= 18){
-    return true;
-  }
 
-}
-
-console.log('can vote results', canVote(18))
-console.log('test')
 
 
 /*
