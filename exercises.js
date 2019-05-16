@@ -1,6 +1,7 @@
 /*
 If statements - Evaluates (or checks) a condition. If the condition is true, any statements in the subsequent code block are executed
 */
+
 /*var today = new Date();
 
 if(today === "Friday"){
@@ -17,7 +18,6 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
   return "Get back to coding!";
 };*/
 
-
 /*
  * #1
  * Function - canVote
@@ -28,6 +28,17 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
+
+/*function canVote(age){
+  if (age >= 18){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('canVote:', canVote(15));
+console.log('canVote:', canVote(19));*/
 
 
 /*
@@ -41,6 +52,17 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
+
+/*function login(password){
+  if(password === 'test1234'){
+    return 'Login Success!';
+  } else {
+    return 'Login Fail!';
+  }
+}
+
+console.log('login:', login('test1234'));
+console.log('login:', login('test4321'));*/
 
 
 /*
@@ -56,6 +78,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+/*function isGreaterThan(first, second){
+  if(first > second){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('Is Greater Than:', isGreaterThan(2,1));
+console.log('Is Greater Than:', isGreaterThan(1,2));*/
 
 
 /*
@@ -70,6 +102,17 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Console.log your result.
 */
 
+/*function mustbeTrue(boo){
+  if(boo === true){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log('mustbeTrue:', mustbeTrue(true));
+console.log('mustbeTrue:', mustbeTrue(false));*/
+
 
 
 /*
@@ -80,9 +123,19 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `word`
  *  @return Datatype: String
  *
- * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
+ * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word.
  * Console.log your result.
 */
+
+/*function bigBird(word){
+  if(word === word.substring(0,3)){
+    return 'Word to Big Bird';
+  } else {
+    return 'Nah';
+  }
+}
+
+console.log(bigBird('che'));*/
 
 
 
@@ -95,7 +148,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
+ * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore."
  * Console.log your result.
 */
 
@@ -109,7 +162,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *  @param Datatype: String `second`
  *  @return Datatype: String
  *
- * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
+ * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror."
  * Console.log your result.
 */
 
@@ -124,7 +177,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -140,7 +193,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -154,7 +207,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -170,7 +223,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
-*/ 
+*/
 
 
 /*
@@ -184,7 +237,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -198,7 +251,7 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
-*/ 
+*/
 
 
 /*
@@ -210,10 +263,31 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * Create a function named `buyDoughnut` which takes NO parameters.
  * When the function is invoked, the budget will be decreased by the doughnutPrice and doughnutBought will increase by 1.
+ * Your function should return a message 'Not enough money' if you run out of money in your budget
  * Console.log budget and doughnutBought.
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
-*/ 
+*/
+
+/*var budget = 20;
+var doughnutPrice = 5;
+var doughnutBought = 0;
+
+function buyDoughnut(){
+  if (budget >= doughnutPrice){
+    budget = budget - doughnutPrice;
+    return doughnutBought++;
+  } else {
+    return 'not enough funds';
+  }
+}
+
+console.log(budget);
+console.log(doughnutBought);
+buyDoughnut();
+console.log(budget);
+console.log(doughnutBought);
+*/
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
@@ -238,7 +312,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 }
 
 
-/* 
+/*
  * #15
  * Create a for loop that will iterate 5 times and console.log the following:
  * "Player: 1"
@@ -249,7 +323,7 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
 
 
-/* 
+/*
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
@@ -261,12 +335,12 @@ for (var i = 0; i<toyotaModels.length; i++){
  * Function - sumItUp
  * Declare a variable named `numArray` and assign it with an array of 5 random numbers of your choice.
  * Declare a variable named `total` and assign it with a number value of 0.
- * 
+ *
  * Create a function named sumItUp which takes a parameter: `arr`.
- * 
+ *
  *   @param Datatype: Array `arr`
  *   @return Datatype: Number
- * 
+ *
  * The function will loop through and add up all the values in the array that is passed into the function and return the total.
  * Console.log your result.
 */
@@ -283,7 +357,18 @@ for (var i = 0; i<toyotaModels.length; i++){
  *
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
-*/ 
+*/
+
+  /*var players = ["LeBron", "Linsanity", "Kawhi", "Kobe", "Yao Ming", "Bird", "Jordan"];
+  var east = [];
+  var west = [];
+
+  function allStars(ballers){
+    for (var i = 0; i < ballers.length; i++) {
+
+    }
+  }*/
+
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
 /*
@@ -296,7 +381,7 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
  *
  * The function will loop through the array value and replace all the odd numbered indexed items with "Classic Tuna".
  * Console.log your results.
-*/ 
+*/
 
   var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
@@ -305,7 +390,7 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
 Final Boss
  * #20
  * Function - removeLetter
- * Create a function named `removeLetter`, which takes a parameter `str`. 
+ * Create a function named `removeLetter`, which takes a parameter `str`.
  *
  *   @param Datatype: String `str`
  *   @return Datatype: Array
@@ -313,17 +398,17 @@ Final Boss
  *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
 
-var phrase = "An apple a day keeps Alice feeling awesome!";
- 
-  
-  
 
 
+ /* function removeLetter(str){
+    var newArr = [];
+    for (var i = 0; i < str.length; i++){
+      if (str[i] != 'a' && str[i] != 'A'){
+        newArr.push(str[i]);
+      }
+    }
+    console.log(newArr);
+    return newArr;
+  }
 
-
-
-
-
-
-
-
+  removeLetter(phrase);*/
